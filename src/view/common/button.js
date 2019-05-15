@@ -27,8 +27,6 @@ export default class button extends React.Component{
         <Button type="default" size='large'>大</Button>
         <Button type="default" >中</Button>
         <Button type="default" size='small'>小</Button>
-        
-        
       </div>
     )
   }
