@@ -2,6 +2,8 @@ import React from 'react'
 // import { Divider } from 'antd';
 import { Form, Icon, Input, Button, Checkbox } from 'antd'
 import './index.less'
+// let img = require('@/userInfo1.jpg');
+
 class NormalLoginForm extends React.Component {
 	handleSubmit = e => {
 		e.preventDefault()
@@ -16,6 +18,7 @@ class NormalLoginForm extends React.Component {
 		const { getFieldDecorator } = this.props.form
 		return (
 			<div className='login'>
+        {/* <img src={img} alt="" /> */}
 				<Form onSubmit={this.handleSubmit} className="login-form" style={{ width: '400px' }}>
 					<Form.Item>
 						{getFieldDecorator('userName', {

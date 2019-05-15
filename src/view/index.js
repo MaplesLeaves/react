@@ -388,7 +388,7 @@ let listMenu = [
       },
       {
         name: '父子组件通讯',
-        id: '11.3',
+        id: '11.4',
         path: '/index/childMap',
       }
     ]

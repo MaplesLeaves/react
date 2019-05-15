@@ -1,5 +1,6 @@
 {
-  "name": "first",
+  "name": "mapleLeaves",
+  "author": "lix <15094052912@163.com>",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
